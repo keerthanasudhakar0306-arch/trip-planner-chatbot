@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>AI Chat</title>
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="chat-box">
+
+<h1>🤖 AI Chat</h1>
+
+<div id="chat">
+    <div class="quick">
+
+<button onclick=
+"quick('munnar plans')">
+
+🌿 Plan
+
+</button>
+
+<button onclick=
+"quick('photo spots')">
+
+📸 Photos
+
+</button>
+
+<button onclick=
+"quick('best day')">
+
+🌄 Best Day
+
+</button>
+
+<button onclick=
+"quick('train details')">
+
+🚆 Train
+
+</button>
+
+</div>
+
+<div class="ai">
+
+👋 Welcome!
+
+Try:
+• munnar plans  
+• photo spots  
+• best day  
+• train details
+
+</div>
+
+<div class="section-title">
+
+✈️ TRIP PLANS
+
+</div>
+<div class="quick">
+    <button onclick="darkMode()">
+🌙 Dark Mode
+</button>
+    <button onclick="clearChat()">
+🗑 Clear Chat
+</button>
+
+<button onclick="quick('munnar plans')">
+🌿 Munnar Trip
+</button>
+
+<button onclick="quick('photo spots')">
+📸 Best Spots
+</button>
+
+<button onclick="quick('best day')">
+🌄 Best Day
+</button>
+
+<button onclick="quick('train details')">
+🚆 Train Plan
+</button>
+
+</div>
+<div class="cards">
+
+<div
+onclick="quick('munnar plans')">
+
+🌿
+<br>
+Munnar
+
+</div>
+
+<div
+onclick="quick('ooty')">
+
+🏔
+<br>
+Ooty
+
+</div>
+
+<div
+onclick="quick('yercaud')">
+
+🍃
+<br>
+Yercaud
+
+</div>
+
+</div>
+<input
+id="message"
+type="text"
+placeholder=
+"Ask me anything">
+
+<button
+onclick="reply()">
+Send
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
